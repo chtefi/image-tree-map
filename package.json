@@ -1,0 +1,29 @@
+{
+  "name": "image-tree-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress",
+    "serve": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chtefi/image-tree-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chtefi/image-tree-map/issues"
+  },
+  "homepage": "https://github.com/chtefi/image-tree-map#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.3",
+    "babel-loader": "^5.3.2",
+    "file-loader": "^0.8.4",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
